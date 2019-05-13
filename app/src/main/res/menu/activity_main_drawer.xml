@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_control"
+            android:icon="@drawable/dashboard"
+            android:title="控制台" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="用户管理" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="实时位置" />
+        <item
+            android:id="@+id/nav_infoManage"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="设备信息"/>
+        <item
+            android:id="@+id/nav_configure"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="设备配置" />
+    </group>
+
+    <item android:title="设备数据展示" android:id="@+id/nav_statistic">
+        <menu>
+            <item
+                android:id="@+id/nav_historyLocation"
+                android:title="历史位置"
+                android:icon="@drawable/ic_history_black_24dp"/>
+            <item
+                android:id="@+id/nav_eventData"
+                android:title="事件数据"
+                android:icon="@drawable/ic_event_black_24dp"/>
+            <item
+                android:id="@+id/nav_humidity"
+                android:title="湿度曲线图"
+                android:icon="@drawable/humidity"/>
+            <item
+                android:id="@+id/nav_temperature"
+                android:title="温度曲线图"
+                android:icon="@drawable/temperature"/>
+        </menu>
+    </item>
+
+    <item android:title="系统">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="设置" />
+            <item
+                android:id="@+id/nav_signOut"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="注销" />
+        </menu>
+    </item>
+
+</menu>

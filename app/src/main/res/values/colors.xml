@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1397fb</color>
+    <color name="colorPrimaryDark">#0571f4</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorUnderlineBlue">#1E90FF</color>
+    <color name="colorButtonBlue">#36c2f7</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="text_secondary">#555555</color>
+    <color name="gap_color">#eeeeee</color>
+    <color name="colorSlightBlue">#A6FFFF</color>
+    <color name="colorDeepBlue">#00CACA</color>
+    <color name="colorSlightGreen">#96FED1</color>
+    <color name="colorDeepGreen">#02C874</color>
+    <color name="colorSlightYellow">#CCFF80</color>
+    <color name="colorDeepYellow">#8CEA00</color>
+    <color name="colorCardWhite">#FAFAFA</color>
+    <color name="Yellow">#f5a043</color>
+    <color name="Red">#fa3636</color>
+    <color name="background">#EEEEEE</color>
+</resources>
